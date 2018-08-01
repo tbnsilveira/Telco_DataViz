@@ -52,7 +52,7 @@ Receiving some feedback from my peers helped me both to confirm that the message
 
 Regarding the suggestion on item 2.2, I included the total number of access in the main chart. Doing it I could also remove the *year filter*, as suggested in item 2.5. I also improved the dashboard actions, make it able to change the charts appropriately when selecting some UF. 
 
-Once the final version was ready, [I published it on Tableau Public](https://public.tableau.com/views/Tableau_FinalProject_TBNSilveira_v2/Dashboard?:embed=y&:display_count=yes). For the sake of comparison, [the previous version is also available on GitHub]([this dashboard](https://github.com/tbnsilveira/Telco_DataViz/blob/master/Tableau_FinalProject_TBNSilveira.twb))
+Once the final version was ready, [I published it on Tableau Public](https://public.tableau.com/views/Tableau_FinalProject_TBNSilveira_v2/Dashboard?:embed=y&:display_count=yes). For the sake of comparison, [the previous version is also available on GitHub](https://github.com/tbnsilveira/Telco_DataViz/blob/master/Tableau_FinalProject_TBNSilveira.twb).
 
 
 ## 4. Resources
