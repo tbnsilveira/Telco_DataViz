@@ -1,3 +1,4 @@
+
 # Udacity Data Analyst Nanodegree 
 ## Project 8 - Create a Tableau Story
 
@@ -8,7 +9,7 @@ In the following lines I will report how it was to prepare the data; to start th
 ## 1. First Design
 I was warned that choosing a specific dataset could increase the project execution time due to data wrangling tasks. On the other hand, I was in the same way encouraged to explore some data from my own, which I must say it was very exciting. Considering both arguments, time versus application, I established a time limit to the wrangling process: I should deal with it in two days, otherwise I would come back to a simpler and already cleaned dataset.  
 
-The chosen data concerns about the numbers of mobile accesses in Brazil, provided by [Anatel](https://cloud.anatel.gov.br/index.php/s/TpaFAwSw7RPfBa8?path=%2FMovel_Pessoal) -- the Brazilian Telecommunications Agency. Also, Anatel has also provided an analysis over this data ([available in Portuguese](http://www.anatel.gov.br/dados/destaque-1/283-brasil-tem-236-2-milhoes-de-linhas-moveis-em-janeiro-de-2018)) which I have used as a reference to my exploration: I should be able to find at least the same results.  
+The chosen data concerns about the numbers of mobile accesses in Brazil, provided by [Anatel](https://cloud.anatel.gov.br/index.php/s/TpaFAwSw7RPfBa8?path=%2FMovel_Pessoal) -- the Brazilian Telecommunications Agency. Also, Anatel has provided an analysis over this data ([available in Portuguese](http://www.anatel.gov.br/dados/destaque-1/283-brasil-tem-236-2-milhoes-de-linhas-moveis-em-janeiro-de-2018)) which I have used as a reference to my exploration: I should be able to find at least the same results.  
 
 Once my dataset was chosen, my first attempt to read it directly on Tableau has failed, and I realized I wouldn't escape from the wrangling process. To do this task, I wrote an R script ([available at GitHub](https://github.com/tbnsilveira/Telco_DataViz/blob/master/dataWrangling.ipynb)) to transform the original data into a tidy format. At this stage I discovered the data before 2009 have been collected in a different way, the reason why I limited my analysis from 2009 to 2018.  
 
@@ -51,7 +52,7 @@ Receiving some feedback from my peers helped me both to confirm that the message
 
 Regarding the suggestion on item 2.2, I included the total number of access in the main chart. Doing it I could also remove the *year filter*, as suggested in item 2.5. I also improved the dashboard actions, make it able to change the charts appropriately when selecting some UF. 
 
-Once the final version was ready, [I published it on Tableau Public](https://public.tableau.com/views/Tableau_FinalProject_TBNSilveira_v2/Dashboard?:embed=y&:display_count=yes).
+Once the final version was ready, [I published it on Tableau Public](https://public.tableau.com/views/Tableau_FinalProject_TBNSilveira_v2/Dashboard?:embed=y&:display_count=yes). For the sake of comparison, [the previous version is also available on GitHub]([this dashboard](https://github.com/tbnsilveira/Telco_DataViz/blob/master/Tableau_FinalProject_TBNSilveira.twb))
 
 
 ## 4. Resources
